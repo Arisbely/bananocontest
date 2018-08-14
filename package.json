@@ -1,0 +1,19 @@
+{
+    "title": "1 Col Portfolio",
+    "name": "bananocontest.github.io",
+    "version": "4.1.1",
+    "description": "New ",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+
+    "devDependencies": {
+        "browser-sync": "2.24.5",
+        "gulp": "^3.9.1"
+    }
+}

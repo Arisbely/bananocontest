@@ -1,0 +1,103 @@
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 90px;
+  }
+}
+
+.pagination {
+  margin-bottom: 15px;
+}
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 50%;
+	list-style: none;
+}
+
+.slider img {
+	width: 60%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.clearfix:after {
+content: "";
+display: table
+}
+
+.nav-wrapper {
+   width:0%;
+   background: #EAF504;
+}
+
+.nav-menu {
+   position:relative;
+   display:inline-block;
+}
+
+.nav-menu li {
+   display: inline;
+   list-style-type: none;
+}
+
+.sub-menu {
+   position:absolute;
+   display:none;
+   background: #343A40;
+}
+.nav-menu ul li:hover > ul {
+   display:inline-block;
+}
+.nav-menu > ul > li:after {
+   content: "\BC"; /*código unicode de la flecha hacia abajo*/
+   font-size: .12em;
+   display: inline;
+   position: relative;
+   }
+
+   .nav-menu{
+   	float: left;
+   	margin: 4px 1px 1px -42px;
+   	list-style:none;
+   	padding: 5px;
+   	color:#233333;
+   	font-size: 15px;
+   }
+   .nav-menu li a {
+   	color:#939C99;
+   	}
+
+  .nav- ul li:hover > ul {
+	visibility:visible;
+	border-top:#CCC 1px solid;
+}
